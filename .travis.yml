@@ -11,8 +11,6 @@ install:
 script:
    - python app.py test
    - pytest
-   - coverage report
-
 
 after_success:
   - coveralls
